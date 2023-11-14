@@ -1,5 +1,6 @@
-as I mentioned before data cleaning and data transformation are two fundamental and essential steps for any data science project.
-They are the two first tasks that must be accomplished by any data scientist when obtaining the raw data for first time. 
+As I mentioned before data cleaning and data transformation are two fundamental and essential steps for any data science project.
+They are the two first tasks that must be accomplished by any data scientist when obtaining the raw data for first time.
+Sometimes, we perform EDA (Exploratory data analysis) between data cleaning and data transformation tasks
 
 ##  Data Transformation 
 
