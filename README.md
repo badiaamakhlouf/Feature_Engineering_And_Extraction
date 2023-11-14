@@ -8,6 +8,15 @@ Sometimes, we perform EDA (Exploratory data analysis) between data cleaning and 
 
 *Source : [zanovoy.com](https://www.zanovoy.com/blog-posts/data-transformation-the-benefits-of-taking-the-time-to-right-your-wrongs)*
 
+## Summary 
+- Import the required libraries
+- Data reading
+- Data transformation :
+    - Normalization
+    - Log scaling or Log transformation 
+    - Standardisation
+    - Mapping categorical variables to numeric variables : data encoding using multiple solutions
+
 ##  Data Transformation 
 
 The data transformation step could be required either before some data cleaning tasks or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
@@ -28,17 +37,36 @@ Some examples of data transformation are:
 
 During the data transformation part, I have accomplished the next steps: 
 
-- Data Normalization : means transforming features to be on a similar scale which improves the performance and training stability of the model. I have used :
-    - Min-Max feature scaling (Normalization)
-    - Maximum absolute scaling (Normalization)
-    - Z-score method (Standardization Scaling)
-    - Log scaling or Log transformation
+- Data transformation : means transforming features to be on a similar scale which improves the performance and training stability of the model. I have used :
+  - Normalization : 
+    - Min-Max feature scaling (Normalization) using `MinMaxScaler`
+    - Maximum absolute scaling (Normalization) using `.abs().max()` 
+    - Z-score method (Standardization Scaling) using `mean()` and `std()` or `StandardScaler`
+    - Log scaling or Log transformation using `np.log()`
   
 - Transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
-    - Python’s Category Encoder Library
-    - Dummy Variable Encoding
-    - Using Scikit-learn
-    - Ordinal Encoding
-    - How to choose the best Encoding Method # Feature Engineering and Variable Transformation
+    - Python’s Category Encoder Library :
+      - One-hot Encoding
+      - Label Encoding
+      - Ordinal Encoding
+      - Helmert Encoding
+      - Binary Encoding
+      - Frequency Encoding
+      - Mean Encoding
+      - Weight of Evidence Encoding
+      - Probability Ratio Encoding
+      - Hashing Encoding
+      - Backward Difference Encoding
+      - Leave One Out Encoding
+      - James-Stein Encoding
+      - M-estimator Encoding
+      - Thermometer Encoder
+    - Dummy Variable Encoding using `pd.get_dummies()`
+    - Using Scikit-learn such as `OneHotEncoder`
+    - Ordinal Encoding such as `cat.codes` of pandas
+    - How to choose the best Encoding Method
+     
+ # Feature Engineering
+ 
 ## Conclusion
 • Transformed data is easier to understand and to analyze either by computer or human.
