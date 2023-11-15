@@ -77,6 +77,7 @@ During the data transformation part, I have accomplished the next steps:
     - How to choose the best Encoding Method
      
  # Feature Engineering
+ 
  Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. to increase machine learning model accuracy (both     
  training and testing), leading to better performance and finding the appropriate findings.
 
