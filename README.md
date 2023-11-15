@@ -14,13 +14,19 @@ to further understand patterns, determine correlation and summarize the key insi
 - Data reading
 - Data transformation :
     - Normalization
+    - Standardisation 
     - Log scaling or Log transformation 
-    - Standardisation
     - Mapping categorical variables to numeric variables : data encoding using multiple solutions
 
 ##  Data Transformation 
 
 The data transformation step could be required either before some data cleaning tasks or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
+
+Data transformation is important because most of machine learning models are based on some assumptions such in case of linear regression models
+we assume that variables (observations) have a linear relationship with the target. Therefore, we use data transformation to ensure the existence of this linear relationship. 
+In addition, most of cases raw data is skewed either positively or negatively while in linear regression models we assume that residuals are normally distributed so data transformation ca resolve this problem.
+
+*Note:residuals are estimates of experimental error obtained by subtracting the observed responses from the predicted responses.* 
 
 Some examples of data transformation are:
 
@@ -34,18 +40,24 @@ Some examples of data transformation are:
 
 •	Attribute construction: adding one new attribute or more from existing ones.
 
-•	Etc
+•	Scaling
+
+• Etc.
 
 During the data transformation part, I have accomplished the next steps: 
 
 - Data transformation : means transforming features to be on a similar scale which improves the performance and training stability of the model. I have used :
   - Normalization : 
     - Min-Max feature scaling (Normalization) using `MinMaxScaler`
-    - Maximum absolute scaling (Normalization) using `.abs().max()` 
+    - Maximum absolute scaling (Normalization) using `.abs().max()`
+      
+- Standardisation
     - Z-score method (Standardization Scaling) using `mean()` and `std()` or `StandardScaler`
+      
+- Log transformation
     - Log scaling or Log transformation using `np.log()`
-  
-- Transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
+      
+- Feature encoding : transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
     - Python’s Category Encoder Library :
       - One-hot Encoding
       - Label Encoding
