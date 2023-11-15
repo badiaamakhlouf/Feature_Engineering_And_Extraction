@@ -50,14 +50,11 @@ During the data transformation part, I have accomplished the next steps:
   - Normalization : 
     - Min-Max feature scaling (Normalization) using `MinMaxScaler`
     - Maximum absolute scaling (Normalization) using `.abs().max()`
-      
-- Standardisation
-    - Z-score method (Standardization Scaling) using `mean()` and `std()` or `StandardScaler`
-      
-- Log transformation
-    - Log scaling or Log transformation using `np.log()`
-      
-- Feature encoding : transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
+  - Standardisation
+    - Z-score method (Standardization Scaling) using `mean()` and `std()` or `StandardScaler` 
+  - Log transformation
+    - Log scaling or Log transformation using `np.log()` 
+  - Feature encoding : transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
     - Python’s Category Encoder Library :
       - One-hot Encoding
       - Label Encoding
