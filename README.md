@@ -77,6 +77,13 @@ During the data transformation part, I have accomplished the next steps:
     - How to choose the best Encoding Method
      
  # Feature Engineering
+ Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. to increase machine learning model accuracy (both     
+ training and testing), leading to better performance and finding the appropriate findings.
+
+ In addition, feature engineering in Machine Learning involves extracting useful features from the given input data to better learn the target using our choosen machine learning model. It involves transforming data to forms that better relate to the underlying target to be learned. 
+ At the end, only the most significant features, that have linear relation with the target, are given to the model and the remaining features are discarded.
+ 
+In order to achieve an effective feature engineering, it is important to understand deeply the business problem and the given data via perforing exploratory data analysis and data cleaning.
  
 ## Conclusion
 • Transformed data is easier to understand and to analyze either by computer or human.
