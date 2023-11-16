@@ -1,12 +1,6 @@
 Before preparing the data for training machine learning models phase, it is useful to perform a feature engineering process. 
 It aims to manipulate, select and transform raw data into more significant features that can be used in supervised learning.
-Faeture engineering helps increase model accuracy, leading to better performance and discovering the appropriate findings.
-
-Data transformation is the main part in feature engineering process. In addition, data transformation next to data cleaning are
-two fundamental and essential steps for any data science project. They are the two first tasks that must be accomplished by any data scientist
-when obtaining the raw data for first time and before provide tarining data to the machine learning model.
-Sometimes, we perform EDA (Exploratory data analysis) between data cleaning and feature engineering tasks
-to further understand patterns, determine correlation and summarize the key insights.
+Feature engineering helps increase model accuracy, leading to better performance and discovering the appropriate findings.
 
 <div>
 <img src="images/data_transformation.png "Data cleaning" width="500"/>
@@ -27,7 +21,13 @@ to further understand patterns, determine correlation and summarize the key insi
 
 ##  Data Transformation 
 
-The data transformation step could be required either before some data cleaning tasks or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
+Data transformation is the main part in feature engineering process. In addition, data transformation next to data cleaning are
+two fundamental and essential steps for any data science project. They are the two first tasks that must be accomplished by any data scientist
+when obtaining the raw data for first time and before provide tarining data to the machine learning model.
+Sometimes, we perform EDA (Exploratory data analysis) between data cleaning and feature engineering tasks
+to further understand patterns, determine correlation and summarize the key insights.
+
+Moreover, The data transformation step could be required either before some data cleaning tasks or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
 
 Data transformation is important because most of machine learning models are based on some assumptions such in case of linear regression models
 we assume that variables (observations) have a linear relationship with the target. Therefore, we use data transformation to ensure the existence of this linear relationship. 
