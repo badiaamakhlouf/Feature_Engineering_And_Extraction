@@ -1,6 +1,11 @@
-As I mentioned before data cleaning and data transformation are two fundamental and essential steps for any data science project.
-They are the two first tasks that must be accomplished by any data scientist when obtaining the raw data for first time.
-Sometimes, we perform EDA (Exploratory data analysis) between data cleaning and data transformation tasks
+Before preparing the data for training machine learning models phase, it is useful to perform a feature engineering process. 
+It aims to manipulate, select and transform raw data into more significant features that can be used in supervised learning.
+Faeture engineering helps increase model accuracy, leading to better performance and discovering the appropriate findings.
+
+Data transformation is the main part in feature engineering process. In addition, data transformation next to data cleaning are
+two fundamental and essential steps for any data science project. They are the two first tasks that must be accomplished by any data scientist
+when obtaining the raw data for first time and before provide tarining data to the machine learning model.
+Sometimes, we perform EDA (Exploratory data analysis) between data cleaning and feature engineering tasks
 to further understand patterns, determine correlation and summarize the key insights.
 
 <div>
@@ -12,11 +17,13 @@ to further understand patterns, determine correlation and summarize the key insi
 ## Summary 
 - Import the required libraries
 - Data reading
+- Feature engineering 
 - Data transformation :
     - Normalization
     - Standardisation 
     - Log scaling or Log transformation 
     - Mapping categorical variables to numeric variables : data encoding using multiple solutions
+- 
 
 ##  Data Transformation 
 
@@ -78,8 +85,7 @@ During the data transformation part, I have accomplished the next steps:
      
  # Feature Engineering
  
- Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. to increase machine learning model accuracy (both     
- training and testing), leading to better performance and finding the appropriate findings.
+ Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. 
 
  In addition, feature engineering in Machine Learning involves extracting useful features from the given input data to better learn the target using our choosen machine learning model. It involves transforming data to forms that better relate to the underlying target to be learned. 
  At the end, only the most significant features, that have linear relation with the target, are given to the model and the remaining features are discarded.
