@@ -20,7 +20,7 @@ Feature engineering helps increase model accuracy, leading to better performance
 - 
 # Feature Engineering
  
- Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. 
+ Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. It encompasses the process of creating new features or modifying existing ones to improve the performance of a machine learning model.
 
  In addition, feature engineering in Machine Learning involves extracting useful features from the given input data to better learn the target using our choosen machine learning model. It involves transforming data to forms that better relate to the underlying target to be learned. 
  At the end, only the most significant features, that have linear relation with the target, are given to the model and the remaining features are discarded.
@@ -29,14 +29,7 @@ In order to achieve an effective feature engineering, it is important to underst
 
 ##  Data Transformation 
 
-data transformation is indeed one subtask within the broader field of feature engineering in machine learning. Feature engineering encompasses the process of creating new features or modifying existing ones to improve the performance of a machine learning model. Data transformation is a specific aspect of feature engineering that involves modifying the raw data to make it more suitable for the learning algorithm.
-
-
-Data transformation is the main subtask within the broader field of feature engineering in machine learning. In addition, data transformation next to data cleaning are
-two fundamental and essential steps for any data science project. They are the two first tasks that must be accomplished by any data scientist
-when obtaining the raw data for first time and before provide tarining data to the machine learning model.
-Sometimes, we perform EDA (Exploratory data analysis) between data cleaning and feature engineering tasks
-to further understand patterns, determine correlation and summarize the key insights.
+Data transformation is indeed one subtask within the broader field of feature engineering in machine learning. It is a specific aspect of feature engineering that involves modifying the raw data to make it more suitable for the learning algorithm. 
 
 Moreover, The data transformation step could be required either before some data cleaning tasks or between data cleaning and Exploratory Data Analysis (EDA). Data transformation before data cleaning, is the process of converting data from one format to another such as from JSON to CSV or data aggregation etc. After data cleaning, this process helps convert our cleaned data into useful information and more significant features. 
 
