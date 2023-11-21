@@ -11,13 +11,23 @@ Feature engineering helps increase model accuracy, leading to better performance
 ## Summary 
 - Import the required libraries
 - Data reading
-- Feature engineering 
+- Data exploration
+- Feature engineering:
+      - Feature selection : choosing the set of features to include in the model. 
+      - Data transformation: sometimes we transform variable before include them in the model
+      - Text Data Processing: Tokenize, vectorize, and preprocess text data to make it suitable for machine learning models.
+      - Time-Series Feature Engineering: create lag features, rolling statistics, or other time-related features for time-series data.
 - Data transformation :
-    - Normalization
-    - Standardisation 
-    - Log scaling or Log transformation 
-    - Mapping categorical variables to numeric variables : data encoding using multiple solutions
-- 
+    - Feature Scaling: convert the scale of numeric data so they are comparable
+        - Normalization
+        - Standard scaling : converts features to standard normal variables (by subtracting the mean and dividing the standard error)
+        - Log scaling or Log transformation
+        - Polynomial transformation
+    - Feature encoding : converting categorical variables to numeric variables
+    - Feature extraction : use techniques like Principal Component Analysis (PCA) or Singular Value Decomposition (SVD) to reduce dimensionality and extract essential features.
+    - Binning or Discretization : group continuous variables into bins or discrete intervals to simplify complex relationships.
+    - Creating Interaction Terms : combining existing features to capture interactions between them.
+
 # Feature Engineering
  
  Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. It encompasses the process of creating new features or modifying existing ones to improve the performance of a machine learning model.
@@ -35,17 +45,15 @@ Moreover, The data transformation step could be required either before some data
 
 Data transformation can include various operations such as:
 
-- Scaling and Standardization: Adjusting the scale of features to a similar range or standardizing them to have a mean of 0 and a standard deviation of 1.
-- Normalization: Scaling features to a range between 0 and 1.
-- Encoding Categorical Variables: Converting categorical variables into numerical representations that can be used by machine learning algorithms.
-- Logarithmic or Power Transformations: Applying logarithmic, square root, or other power transformations to handle skewed distributions.
-- Binning or Discretization: Grouping continuous data into bins or discrete intervals.
-- Creating Interaction Terms: Combining existing features to capture interactions between them.
-- Feature Extraction: Reducing dimensionality through techniques like Principal Component Analysis (PCA) or extracting meaningful features from raw data.
-- Text Processing: Converting text data into a format suitable for machine learning models, such as using techniques like tokenization or vectorization.
+- Scaling and Standardization: adjusting the scale of features to a similar range or standardizing them to have a mean of 0 and a standard deviation of 1.
+- Normalization: scaling features to a range between 0 and 1.
+- Encoding Categorical Variables: converting categorical variables into numerical representations that can be used by machine learning algorithms.
+- Logarithmic Transformations: applying logarithmic, square root, or other power transformations to handle skewed distributions.
+- Binning or Discretization: arouping continuous data into bins or discrete intervals.
+- Creating Interaction Terms: combining existing features to capture interactions between them.
+- Feature Extraction: reducing dimensionality through techniques like Principal Component Analysis (PCA) or extracting meaningful features from raw data.
   
 Effective data transformation can have a significant impact on the performance of machine learning models by improving their ability to extract patterns and relationships from the data. It is an essential step in the overall feature engineering process, which aims to enhance the representational power of the features used by the model.
-
 
 During the data transformation part, I have accomplished the next steps: 
 
@@ -59,11 +67,11 @@ During the data transformation part, I have accomplished the next steps:
     - Log scaling or Log transformation using `np.log()` 
   - Feature encoding : transforming categorical values to numeric variables : both nominal and ordinal data were considered. I have used :
     - Python’s Category Encoder Library :
-      - One-hot Encoding
+      - One-hot Encoding: converts variables that take multiple values into binary (0,1) variables one for each category. This creates several new variables.
       - Label Encoding
-      - Ordinal Encoding
+      - Ordinal Encoding: converting ordered categories to numerical values, assigning each categorical value to a number such as 0,1,2 etc. while respecting the order : for example LOW==> 0, Medium==>1, High==>2.
       - Helmert Encoding
-      - Binary Encoding
+      - Binary Encoding : convert variables to either 0 or 1 suitable for variables with two values such as YES/NO, True/FALSE
       - Frequency Encoding
       - Mean Encoding
       - Weight of Evidence Encoding
