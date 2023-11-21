@@ -1,6 +1,14 @@
-Before preparing the data for training machine learning models phase, it is useful to perform a feature engineering process. 
-It aims to manipulate, select and transform raw data into more significant features that can be used in supervised learning.
-Feature engineering helps increase model accuracy, leading to better performance and discovering the appropriate findings.
+Welcome to this online course on Feature Engineering and Variable Transformation!
+
+In the realm of machine learning, the journey from raw data to a well-performing model involves a crucial phase known as feature engineering. This process is not just a preliminary step before training; it is an artful and strategic manipulation of data. The goal? To shape, select, and transform raw data into meaningful features that will empower supervised learning.
+
+Feature engineering is the key to unlocking the full potential of your machine learning models. By crafting features that encapsulate relevant information and relationships within the data, we pave the way for enhanced model accuracy. The result? Improved overall performance and the ability to uncover nuanced insights that might otherwise remain hidden.
+
+Throughout this course, we will delve into the intricacies of feature engineering and variable transformation. From the fundamentals of manipulating data to the art of selecting and creating features, you'll gain a comprehensive understanding of how to optimize your data for machine learning success.
+
+Join us on this journey as we explore the transformative power of feature engineering and unveil the techniques that will elevate your machine learning endeavors. Let's harness the potential within our data to craft models that not only perform well but also reveal valuable insights.
+
+Are you ready to unlock the true potential of your data? Let's get started!
 
 <div>
 <img src="images/data_transformation.png "Data cleaning" width="500"/>
@@ -88,6 +96,7 @@ During the data transformation part, I have accomplished the next steps:
     - How to choose the best Encoding Method
  
 ## Conclusion
+
 - Variable transformation and feature engineering are integral components of the machine learning pipeline.
 - Transformed data is easier to understand and to analyze either by computer or human.
 - Feature engineering involves creating new features, selecting relevant ones, and extracting meaningful information to improve a model's ability to capture patterns and relationships within the data.
