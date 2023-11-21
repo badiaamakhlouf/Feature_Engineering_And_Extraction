@@ -88,4 +88,7 @@ During the data transformation part, I have accomplished the next steps:
     - How to choose the best Encoding Method
  
 ## Conclusion
-• Transformed data is easier to understand and to analyze either by computer or human.
+- Variable transformation and feature engineering are integral components of the machine learning pipeline.
+- Transformed data is easier to understand and to analyze either by computer or human.
+- Feature engineering involves creating new features, selecting relevant ones, and extracting meaningful information to improve a model's ability to capture patterns and relationships within the data.
+- Effective variable transformation and feature engineering require a deep understanding of the data and domain knowledge.
