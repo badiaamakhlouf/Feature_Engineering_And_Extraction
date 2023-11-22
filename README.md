@@ -1,4 +1,4 @@
-Welcome to this online course on Feature Engineering and Variable Transformation!
+Welcome to this article on Feature Engineering and Variable Transformation!
 
 In the realm of machine learning, the journey from raw data to a well-performing model involves a crucial phase known as feature engineering. This process is not just a preliminary step before training; it is an artful and strategic manipulation of data. The goal? To shape, select, and transform raw data into meaningful features that will empower supervised learning.
 
