@@ -35,7 +35,7 @@ Are you ready to unlock the true potential of your data? Let's get started!
     - Binning or Discretization : group continuous variables into bins or discrete intervals to simplify complex relationships.
     - Creating Interaction Terms : combining existing features to capture interactions between them.
 
-# Feature Engineering
+## Feature Engineering
  
  Feature engineering refers to the process of raw data manipulation such as addition, deletion, combination, mutation etc. It encompasses the process of creating new features or modifying existing ones to improve the performance of a machine learning model.
 
