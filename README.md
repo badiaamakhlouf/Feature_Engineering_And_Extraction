@@ -20,12 +20,10 @@ Are you ready to unlock the true potential of your data? Let's get started!
 - Data reading
 - Data exploration
 - Feature engineering:
+  
       - Feature selection : choosing the set of features to include in the model.
-  
       - Data transformation: sometimes we transform variable before include them in the model
-  
       - Text Data Processing: Tokenize, vectorize, and preprocess text data to make it suitable for machine learning models.
-  
       - Time-Series Feature Engineering: create lag features, rolling statistics, or other time-related features for time-series data.
   
 - Data transformation :
