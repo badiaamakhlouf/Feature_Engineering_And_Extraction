@@ -16,20 +16,18 @@ Are you ready to unlock the true potential of your data? Let's get started!
 *Source : [zanovoy.com](https://www.zanovoy.com/blog-posts/data-transformation-the-benefits-of-taking-the-time-to-right-your-wrongs)*
 
 ## Summary 
-1- Import the required libraries
+- Import the required libraries
 
-2- Data reading
+- Data reading
 
-3- Feature selection
+- Feature selection
 
-4- Data transformation
-
-    4.1- Feature Scaling
-    
-        4.1.1- Data Normalization 
-            a. Min-Max feature scaling (Normalization
-            b. Maximum absolute scaling (Normalization)
-        4.1.2- Standard scaling
+- Data transformation
+      - Feature Scaling
+          - Data Normalization
+              - Min-Max feature scaling (Normalization
+              - Maximum absolute scaling (Normalization)
+      - Standard scaling
             a. Z-score method
             b. Data Standardisation using StandardScaler
         4.1.3- log scaling or Log transformation
