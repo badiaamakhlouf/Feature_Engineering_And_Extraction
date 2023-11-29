@@ -23,30 +23,25 @@ Are you ready to unlock the true potential of your data? Let's get started!
 3- Feature selection
 
 4- Data transformation 
-
     4.1. - Feature Scaling
-    
         4.1.1- Data Normalization 
             a. Min-Max feature scaling (Normalization
             b. Maximum absolute scaling (Normalization)
-            
         4.1.2- Standard scaling
             a. Z-score method
             b. Data Standardisation using StandardScaler
         4.1.3- log scaling or Log transformation
         4.1.4- Polynomial transformation
         4.1.5- Robust Scaling
-     4.2- Feature encoding : Encoding categorical values to numeric variables
+    4.2- Feature encoding : Encoding categorical values to numeric variables
         4.2.1. Solution 1: Using Python’s Category Encoder Library
         4.2.2- Solution 2: Dummy Variable Encoding
         4.2.3- Solution 3: Using Scikit-learn¶
         4.2.4- Solution 4 : Ordinal Encoding - Manual
-     4.3- Feature extraction
+    4.3- Feature extraction
         4.3.1- Principal Component Analysis (PCA)
      4.4- Binning or Discretization
      4.5- Creating Interaction Terms
-    
-  
 
 ## Feature Engineering
  
