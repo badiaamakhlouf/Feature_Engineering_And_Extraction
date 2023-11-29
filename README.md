@@ -40,11 +40,6 @@ Are you ready to unlock the true potential of your data? Let's get started!
      4.4- Binning or Discretization
      4.5- Creating Interaction Terms
     
-- Feature engineering:
-    - Feature selection : choosing the set of features to include in the model.
-    - Data transformation: sometimes we transform variable before include them in the model
-    - Text Data Processing: Tokenize, vectorize, and preprocess text data to make it suitable for machine learning models.
-    - Time-Series Feature Engineering: create lag features, rolling statistics, or other time-related features for time-series data.
   
 
 ## Feature Engineering
@@ -53,8 +48,18 @@ Are you ready to unlock the true potential of your data? Let's get started!
 
  In addition, feature engineering in Machine Learning involves extracting useful features from the given input data to better learn the target using our choosen machine learning model. It involves transforming data to forms that better relate to the underlying target to be learned. 
  At the end, only the most significant features, that have linear relation with the target, are given to the model and the remaining features are discarded.
- 
-In order to achieve an effective feature engineering, it is important to understand deeply the business problem and the given data via perforing exploratory data analysis and data cleaning.
+
+Feature engineering encompasses several crucial phases to enhance the performance and interpretability of machine learning models:
+
+- Feature Selection: This involves the strategic process of choosing a subset of features to include in the model. By selecting the most relevant features, we aim to optimize model performance and reduce complexity.
+
+- Data Transformation: In certain cases, it is essential to transform variables before incorporating them into the model. This transformation can involve scaling, normalization, or encoding categorical variables to ensure compatibility and improved model accuracy.
+
+- Text Data Processing: For tasks involving text data, a critical step is to tokenize, vectorize, and preprocess the text. Tokenization breaks down text into meaningful units, vectorization converts text into numerical format, and preprocessing enhances the text's suitability for machine learning models.
+
+- Time-Series Feature Engineering: When dealing with time-series data, additional considerations come into play. This phase involves creating lag features, calculating rolling statistics, or generating other time-related features. These enhancements provide the model with insights into temporal patterns, enabling more effective analysis and predictions in time-series scenarios.
+
+Through these phases, feature engineering plays a pivotal role in shaping input data to empower machine learning models with the information needed to make accurate and meaningful predictions. In order to achieve an effective feature engineering, it is important to understand deeply the business problem and the given data via perforing exploratory data analysis and data cleaning.
 
 ##  Data Transformation 
 
