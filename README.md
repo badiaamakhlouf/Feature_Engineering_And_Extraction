@@ -39,9 +39,9 @@ Are you ready to unlock the true potential of your data? Let's get started!
     - Solution 3: Using Scikit-learn¶
     - Solution 4 : Ordinal Encoding - Manual
   - Feature extraction
-        4.3.1- Principal Component Analysis (PCA)
-     4.4- Binning or Discretization
-     4.5- Creating Interaction Terms
+    - Principal Component Analysis (PCA)
+  - Binning or Discretization
+  - Creating Interaction Terms
 
 ## Feature Engineering
  
