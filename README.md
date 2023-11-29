@@ -96,7 +96,7 @@ During the data transformation part, I have accomplished the next steps:
       - Label Encoding
       - Ordinal Encoding: converting ordered categories to numerical values, assigning each categorical value to a number such as 0,1,2 etc. while respecting the order : for example LOW==> 0, Medium==>1, High==>2.
       - Helmert Encoding
-      - Binary Encoding : convert variables to either 0 or 1 suitable for variables with two values such as YES/NO, True/FALSE
+      - Binary Encoding : convert variables to either 0 or 1 suitable for variables with two values such as `YES/NO`, `TRUE/FALSE`
       - Frequency Encoding
       - Mean Encoding
       - Weight of Evidence Encoding
