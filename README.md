@@ -22,10 +22,9 @@ Are you ready to unlock the true potential of your data? Let's get started!
 
 3- Feature selection
 
-4- Data transformation :
-
-    4-1- Feature Scaling
-        4-1-1- Data Normalization 
+4- Data transformation
+    4.1- Feature Scaling
+        4.1.1- Data Normalization 
             a. Min-Max feature scaling (Normalization
             b. Maximum absolute scaling (Normalization)
         4.1.2- Standard scaling
