@@ -27,19 +27,18 @@ Are you ready to unlock the true potential of your data? Let's get started!
      - Data Normalization
        - Min-Max feature scaling (Normalization
        - Maximum absolute scaling (Normalization)
-   
-      4.1.2- Standard scaling
-            a. Z-score method
-            b. Data Standardisation using StandardScaler
-        4.1.3- log scaling or Log transformation
-        4.1.4- Polynomial transformation
-        4.1.5- Robust Scaling
-    4.2- Feature encoding : Encoding categorical values to numeric variables
-        4.2.1. Solution 1: Using Python’s Category Encoder Library
-        4.2.2- Solution 2: Dummy Variable Encoding
-        4.2.3- Solution 3: Using Scikit-learn¶
-        4.2.4- Solution 4 : Ordinal Encoding - Manual
-    4.3- Feature extraction
+     - Standard scaling
+        - Z-score method
+        - Data Standardisation using StandardScaler
+     - log scaling or Log transformation
+     - Polynomial transformation
+     - Robust Scaling
+  - Feature encoding : Encoding categorical values to numeric variables
+    - Solution 1: Using Python’s Category Encoder Library
+    - Solution 2: Dummy Variable Encoding
+    - Solution 3: Using Scikit-learn¶
+    - Solution 4 : Ordinal Encoding - Manual
+  - Feature extraction
         4.3.1- Principal Component Analysis (PCA)
      4.4- Binning or Discretization
      4.5- Creating Interaction Terms
