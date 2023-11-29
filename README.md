@@ -23,8 +23,11 @@ Are you ready to unlock the true potential of your data? Let's get started!
 - Feature selection
 
 - Data transformation
+  
       - Feature Scaling
+  
           - Data Normalization
+  
               - Min-Max feature scaling (Normalization
               - Maximum absolute scaling (Normalization)
       - Standard scaling
