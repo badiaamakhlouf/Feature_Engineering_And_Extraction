@@ -36,7 +36,7 @@ Are you ready to unlock the true potential of your data? Let's get started!
   - Feature encoding : Encoding categorical values to numeric variables
     - Solution 1: Using Python’s Category Encoder Library
     - Solution 2: Dummy Variable Encoding
-    - Solution 3: Using Scikit-learn¶
+    - Solution 3: Using Scikit-learn
     - Solution 4 : Ordinal Encoding - Manual
   - Feature extraction
     - Principal Component Analysis (PCA)
