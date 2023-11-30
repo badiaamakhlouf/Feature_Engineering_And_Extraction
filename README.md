@@ -40,6 +40,7 @@ Are you ready to unlock the true potential of your data? Let's get started!
     - Solution 4 : Ordinal Encoding - Manual
   - Feature extraction
     - Principal Component Analysis (PCA)
+    - Singular Value Decomposition (SVD)
   - Binning or Discretization
   - Creating Interaction Terms
 
