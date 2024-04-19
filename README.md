@@ -1,9 +1,9 @@
 # Welcome to Feature Engineering and Feature Extraction
 
 Feature engineering is a crucial step in turning raw data into consistent, coherent and relevant set of features for a high-performing model building.
-It is a a preliminary step before model training phase and it must be accurate to enable shaping and selecting the right data to create meaningful features for better insight detection and model robustness.
+It is a a preliminary step before model training phase and it must be accurate to enable shaping and selecting the right data to create meaningful features for better insights detection and model robustness.
 
-Throughout this article, we will delve into the intricacies of feature engineering and feature extraction. From the fundamentals of manipulating data to the art of selecting and creating features, you'll gain a comprehensive understanding of how to optimize your data for machine learning success.
+During this article, we will delve into the intricacies of feature engineering and feature extraction. From the fundamentals of manipulating data to the art of selecting and creating features, you'll gain a comprehensive understanding of how to optimize your data for machine learning success.
 
 - Are you ready to unlock the true potential of your data? Let's get started! 🚀🎯
   
