@@ -9,14 +9,14 @@ Throughout this article, we will delve into the intricacies of feature engineeri
   
 ## Contents
 
-1- Introduction to Feature Engineering
-2- Handling Missing Data
-3- Dealing with Categorical Data
-4- Scaling and Normalization
-5- Feature Selection
-6- Feature Extraction
-7- Automated Feature Engineering
-8- Conclusion
+ 1- Introduction to Feature Engineering
+ 2- Handling Missing Data
+ 3- Dealing with Categorical Data
+ 4- Scaling and Normalization
+ 5- Feature Selection
+ 6- Feature Extraction
+ 7- Automated Feature Engineering
+ 8- Conclusion
 
 <div>
 <img src="images/data_transformation.png "Data cleaning" width="500"/>
