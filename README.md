@@ -1,13 +1,19 @@
-Welcome to this article on Feature Engineering and Variable Transformation!
+# Welcome to Feature Engineering and Extraction
 
-In the realm of machine learning, the journey from raw data to a well-performing model involves a crucial phase known as feature engineering. This process is not just a preliminary step before training; it is an artful and strategic manipulation of data. The goal? To shape, select, and transform raw data into meaningful features that will empower supervised learning.
+Feature engineering is a crucial step in turning raw data into consistent, coherent and relevant set of features for a high-performing model building.
+It is a a preliminary step before model training phase and it must be accurate to enable shaping and selecting the right data to create meaningful features for better insight detection and model robustness.
+Throughout this article, we will delve into the intricacies of feature engineering and feature extraction. From the fundamentals of manipulating data to the art of selecting and creating features, you'll gain a comprehensive understanding of how to optimize your data for machine learning success.
 
-Feature engineering is the key to unlocking the full potential of your machine learning models. By crafting features that encapsulate relevant information and relationships within the data, we pave the way for enhanced model accuracy. The result? Improved overall performance and the ability to uncover nuanced insights that might otherwise remain hidden.
-
-Throughout this article, we will delve into the intricacies of feature engineering and variable transformation. From the fundamentals of manipulating data to the art of selecting and creating features, you'll gain a comprehensive understanding of how to optimize your data for machine learning success.
-
-
-Are you ready to unlock the true potential of your data? Let's get started!
+- Are you ready to unlock the true potential of your data? Let's get started! 🚀🎯
+## Contents
+1- Introduction to Feature Engineering
+2- Handling Missing Data
+3- Dealing with Categorical Data
+4- Scaling and Normalization
+5- Feature Selection
+6- Feature Extraction
+7- Automated Feature Engineering
+8- Conclusion
 
 <div>
 <img src="images/data_transformation.png "Data cleaning" width="500"/>
