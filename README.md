@@ -15,7 +15,7 @@ During this article, we will delve into the intricacies of feature engineering a
  - Feature Transformation 
  - Feature Selection
  - Feature Extraction
- - Advanced Feature engineering
+ - Advanced Feature Engineering
  - Automated Feature Engineering
  - Conclusion
 
@@ -112,7 +112,7 @@ During the data transformation part, I have accomplished the next steps:
   - Principal Component Analysis (PCA)
   - Singular Value Decomposition (SVD)
     
-## 8- Advanced Feature engineering
+## 8- Advanced Feature Engineering
 - Text Data Processing: For tasks involving text data, a critical step is to tokenize, vectorize, and preprocess the text. Tokenization breaks down text into meaningful units, vectorization converts text into numerical format, and preprocessing enhances the text's suitability for machine learning models.
 
 - Time-Series Feature Engineering: When dealing with time-series data, additional considerations come into play. This phase involves creating lag features, calculating rolling statistics, or generating other time-related features. These enhancements provide the model with insights into temporal patterns, enabling more effective analysis and predictions in time-series scenarios.
