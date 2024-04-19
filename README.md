@@ -6,7 +6,9 @@ It is a a preliminary step before model training phase and it must be accurate t
 Throughout this article, we will delve into the intricacies of feature engineering and feature extraction. From the fundamentals of manipulating data to the art of selecting and creating features, you'll gain a comprehensive understanding of how to optimize your data for machine learning success.
 
 - Are you ready to unlock the true potential of your data? Let's get started! 🚀🎯
+  
 ## Contents
+
 1- Introduction to Feature Engineering
 2- Handling Missing Data
 3- Dealing with Categorical Data
