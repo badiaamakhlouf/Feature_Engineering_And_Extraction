@@ -8,15 +8,14 @@ Throughout this article, we will delve into the intricacies of feature engineeri
 - Are you ready to unlock the true potential of your data? Let's get started! 🚀🎯
   
 ## Contents
-
- 1- Introduction to Feature Engineering
- 2- Handling Missing Data
- 3- Dealing with Categorical Data
- 4- Scaling and Normalization
- 5- Feature Selection
- 6- Feature Extraction
- 7- Automated Feature Engineering
- 8- Conclusion
+ - Introduction to Feature Engineering
+ - Handling Missing Data
+ - Dealing with Categorical Data
+ - Scaling and Normalization
+ - Feature Selection
+ - Feature Extraction
+ - Automated Feature Engineering
+ - Conclusion
 
 <div>
 <img src="images/data_transformation.png "Data cleaning" width="500"/>
