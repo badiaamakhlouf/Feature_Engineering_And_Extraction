@@ -18,10 +18,10 @@ During this article, we will delve into the intricacies of feature engineering a
  - Conclusion
 
 <div>
-<img src="images/data_transformation.png "Data cleaning" width="500"/>
+<img src="images/feature_engineering.jpeg "Feature engineering" width="500"/>
 </div>
 
-*Source : [zanovoy.com](https://www.zanovoy.com/blog-posts/data-transformation-the-benefits-of-taking-the-time-to-right-your-wrongs)*
+*Source : [springboard.com](https://www.springboard.com/blog/data-science/how-to-become-data-engineer/)*
 
 ## Summary 
 - Import the required libraries
